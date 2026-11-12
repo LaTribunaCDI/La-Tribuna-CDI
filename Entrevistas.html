@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Entrevistas</title>
+    <link rel="icon" href="./imagenes/icon-tab.png" type="image/png" sizes="64x64">
+    <link rel="stylesheet" href="Style.css">
+    <link rel="stylesheet" href="fonts.css">
+</head>
+<body>
+    <nav class="menu">
+        <button class="menu-toggle" onclick="toggleMenu()">☰</button>
+        <div class="menu-links" id="menuLinks">
+            <a href="index.html">La Tribuna CDI</a>
+            <a href="Articulos.html">Articulos</a>
+            <a href="Resultados.html">Resultados</a>
+        </div>
+    </nav>
+
+    <main class="entrevistas-page">
+        <section class="episodios" aria-label="Entrevistas del Intercolegial Campoalto 2026">
+            <article class="episodio">
+                <p class="episodio-kicker">EPISODIO 01 · FÚTBOL FEMENINO</p>
+                <h1>El último capítulo defendiendo los colores del CDI</h1>
+                <p class="episodio-description">Entrevista con Gabriela Gibert, capitana del fútbol femenino, sobre la participación en el Intercolegial Campoalto 2026, la dolorosa eliminación en semifinales y su despedida de los intercolegiales.</p>
+                <div class="episodio-video">
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/KYUb2ENq_XI?si=hrCy7gGQYtNsEn2K" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                </div>
+            </article>
+
+            <article class="episodio">
+                <p class="episodio-kicker">EPISODIO 02 · BÁSQUET FEMENINO</p>
+                <h2>El camino hacia el Vicecampeonato en el Intercolegial Campoalto 2026</h2>
+                <p class="episodio-description">Entrevista con Ámbar "Toti" Samaniego, capitana del básquet femenino, sobre la final frente a Las Almenas, el recorrido del equipo y el balance final del año.</p>
+                <div class="episodio-video">
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/MjKXv4vehlI?si=DFvmj7aQ5UaoCCDD" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                </div>
+            </article>
+
+            <article class="episodio">
+                <p class="episodio-kicker">EPISODIO 03 · FÚTBOL MASCULINO</p>
+                <h2>La chilena, la consagración y una despedida inolvidable</h2>
+                <p class="episodio-description">Entrevista con Elías Garrido, capitán del fútbol masculino y autor del gol decisivo ante el Campoalto, sobre la consagración y el cierre de su etapa escolar.</p>
+                <div class="episodio-video">
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/D6EGscLesEo?si=1Sz8oG4TZCcvYF1J" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                </div>
+            </article>
+        </section>
+    </main>
+
+    <script>
+        function toggleMenu() {
+            const links = document.getElementById("menuLinks");
+            links.classList.toggle("active");
+        }</script>
+</body>
+</html> 
